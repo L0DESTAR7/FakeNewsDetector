@@ -1,0 +1,24 @@
+{
+  "name": "fakenewsdetector",
+  "version": "1.0.0",
+  "description": "Fake news detection platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/L0DESTAR7/FakeNewsDetector.git"
+  },
+  "keywords": [
+    "Fake",
+    "News",
+    "Detection"
+  ],
+  "author": "L0DESTAR7 | walid23w",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/L0DESTAR7/FakeNewsDetector/issues"
+  },
+  "homepage": "https://github.com/L0DESTAR7/FakeNewsDetector#readme"
+}
