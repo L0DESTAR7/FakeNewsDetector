@@ -24,8 +24,14 @@ import sys
 # ### Inserting fake and real dataset
 
 # %%
+if sys.stdout.encoding != 'utf-8':
+    sys.stdout.reconfigure(encoding='utf-8')
+
+
 df_fake = pd.read_csv("./server/model/Fake.csv")
+df_fake["text"] = df_fake["text"].astype(str)
 df_true = pd.read_csv("./server/model/True.csv")
+df_true["text"] = df_true["text"].astype(str)
 
 # %%
 df_fake.head(5)

@@ -16,7 +16,7 @@ router.get('/', (req: Request, res: Response, next: NextFunction) => {
     url: 'https://api.newscatcherapi.com/v2/search',
     params: { q: query, lang: 'en', sort_by: 'relevancy', page: '1' },
     headers: {
-      'x-api-key': 'E5VxT_RDV2e8JZiEaxwp605SxgDCIGpNytwM4gwIXR8'
+      'x-api-key': 'OIIJBgXnEJ48epfhkjhCi5bqjclZXoM-w0nF5h6Gr4w'
     }
   };
 
